@@ -6,7 +6,7 @@ export default function Header() {
       <header>
         <h1  className="header-title"> Hello.</h1>
         <div className="header-title-box">
-          ⚛ React developer based in Ecuador!
+        I'm REVAN R, a student at Karpagam Institute of Technology, passionate about technology, teamwork, and making a positive impact , 
         </div>
       </header>
     </section>
