@@ -13,14 +13,14 @@ export const About = () => {
           Hey there, I'm Revan, an enthusiastic student with a passion for DevOps. I'm eager to learn about optimizing software development pipelines and collaborating effectively using GitHub. I love tackling challenges and exploring ways to make technology work smarter for us.
         </p>
         <span className="white-text">
-          <button>Portfolio</button>
+          <button></button>
         </span>
         <ul className="tech-stack">
           <li>Devops</li>
           <li>Ui/Ux Designer</li>
           <li>Full-stack Developer</li>
         </ul>
-        <button className="about-see">Ver màs {"->"} </button>
+        <button className="about-see">{""} </button>
       </div>
       <div className="about-right">
         <img src={iconImage} alt="" />
