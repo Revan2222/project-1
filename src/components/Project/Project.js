@@ -8,24 +8,23 @@ function Project() {
   return (
     <section id="projects" className="container container-project">
       <p className="purple-text">
-        ‍💻 Open Source -
-        <span className="purple-smoke-text">Visita mis ultimos proyectos </span>{" "}
+        
+        <span className="purple-smoke-text">Project 1 </span>{" "}
       </p>
       <div className="project-header">
         <div className="project-box">
-          <span className="white-text">react-dark-portfolio</span>
+          <span className="white-text">GITHUB action for portfolio</span>
           <p className="gray-text text-box">
-            Templete para que muestres tus proyectos como un portafolio usando
-            reactjs
+            Deploy a portfolio in S3 Bucket and make a GITHUB action for this portfolio and connect it to CloudFront
           </p>
         </div>
         <img className="project-line" src={Line} alt="abajo" />
       </div>
       <div className="project-details">
-        <img src={ImageTemp} alt="Project React Simple Portfolio" />
+        <img src={ImageTemp} alt="Automate a portfolio" />
         <div className="details-left">
           <p className="gray-text">
-            Mira el diseño de este proyecto en
+            portfolio designed in
             <img className="icon-figma" src={FigmaIcon} alt="" />
             <span className="text-figma">Figma</span>
           </p>
@@ -33,13 +32,13 @@ function Project() {
             <span className="white-text">Tecnologias</span>
             <ul className="gray-text">
               <li>Reactjs</li>
-              <li>CMS (Contenful)</li>
-              <li>Nodejs</li>
+              <li>AWS</li>
+              <li>GitHub</li>
             </ul>
           </div>
           <p className="gray-text">
-            Una estrellita en <span className="white-text">Github</span> y mira
-            en vivo la <span className="white-text">Web</span>{" "}
+             <span className="white-text"></span>
+            <span className="white-text"></span>{" "}
           </p>
         </div>
       </div>
