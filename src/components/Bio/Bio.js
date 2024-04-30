@@ -1,5 +1,4 @@
 import ReactTooltip from "react-tooltip";
-import { BioDetails } from "../BioDetails/BioDetails";
 import { BIO } from "../../constants/bio";
 import "./Bio.css";
 
@@ -7,7 +6,7 @@ export const Bio = () => {
   return (
     <section className="container container-lines">
       <p className="purple-text">
-        📚 Bio <span className="purple-smoke-text">-Asì empecè</span>{" "}
+        📚 Bio <span className="purple-smoke-text">-Academic Details</span>{" "}
       </p>
       <div className="line"></div>
       {BIO.map((e) => (
@@ -17,14 +16,11 @@ export const Bio = () => {
             {e.title.cargo} at {e.title.name}
           </span>
           <ReactTooltip
-            getContent={(dataTip) => `This little buddy is ${dataTip}`}
+            getContent={(dataTip) => ` ${dataTip}`}
             place="top"
             effects="float"
             className="custom-theme"
-          >
-            {/*             <BioDetails />
-             */}{" "}
-          </ReactTooltip>
+          />
           <div className="line"></div>
         </div>
       ))}
