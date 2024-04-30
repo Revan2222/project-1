@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <footer className="container-footer">
       <p>
-        Mira mi trabajo en <span className="white-text">Github</span> o{" "}
-        <span className="white-text">Behance</span>
+        PROJECT 1  <span className="white-text">Github</span> o{" "}
+        <span className="white-text"></span>
       </p>
     </footer>
   );
