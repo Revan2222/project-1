@@ -3,17 +3,17 @@ import { RiSunFill, RiMoonFill } from "react-icons/ri";
 
 export default function Mode({ handleModeChange, setMode }) {
   return (
-    <section className=" container-mode">
+    <section className="container-mode">
       <div className="mode-left white-text">
         <ul>
           <li>
-            <a href="#projects" >Works</a>
-            
+            <a href="#projects">Works</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/cutioluis">
-              <span class="link-decoration">Source</span>
-              <span class="icon-change">
+            {/* Add rel="noreferrer" here */}
+            <a target="_blank" href="https://github.com/cutioluis" rel="noreferrer">
+              <span className="link-decoration">Source</span>
+              <span className="icon-change">
                 <img
                   src="https://cdn.sanity.io/images/tljndwv6/production/182744b0662c24bb7d37846566bdb7ebee3470d6-15x15.svg"
                   alt="External Link"
