@@ -13,7 +13,7 @@ export const About = () => {
         Hey there, I'm Revan, an enthusiastic student with a passion for DevOps. I'm eager to learn about optimizing software development pipelines and collaborating effectively using GitHub. I love tackling challenges and exploring ways to make technology work smarter for us.{" "}
         </p>
         <span className="white-text">
-          <a href="http://localhost:3000/#projects">Portfolio</a>
+          <a href="#projects">Portfolio</a>
         </span>
         <ul className="tech-stack">
           <li>Devops</li>
